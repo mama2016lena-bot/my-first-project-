@@ -1,0 +1,102 @@
+:root{
+    --text-color:rgb(41, 0, 130);
+    --font-size: 30px;
+    --button-color:rgb(119, 119, 247);
+    --button-border-radius:30px;
+    --background-color:rgb(61, 168, 213);
+}
+body{
+    background-color: rgb(132, 207, 237);
+    flex-wrap: wrap;
+}
+h1{
+    color:var(--text-color);
+font-size: var(--font-size);
+
+}
+header{
+width: 100%;
+height: 100px;
+background-color: rgb(30, 175, 183);
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+}
+main{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap;
+}
+.cart{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 175, 183); ;
+    border-radius: 30px;
+flex-direction: column;
+}
+img{
+    width: 220px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+   margin-top: 10px;
+    
+}
+p{
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+.transport{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap;
+}
+.pant{
+       width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 175, 183); ;
+    border-radius: 30px;
+flex-direction: column;
+
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: var(--background-color);
+    border-radius: var(--button-border-radius);
+}
+.button{
+    width:90%;
+    height: 60px;
+    background-color: var(--background-color);
+    border-radius: var(--button-border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+}
+footer{
+    background-color:  rgb(30, 175, 183);
+    
+    position: sticky;
+}

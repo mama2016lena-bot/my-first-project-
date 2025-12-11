@@ -1,0 +1,52 @@
+:root{
+    --text-color:rgb(41, 0, 130);
+    --font-size: 30px;
+    --button-color:rgb(119, 119, 247);
+    --button-border-radius:30px;
+    --background-color:rgb(131, 247, 77);
+}
+body{
+    background-color: rgb(132, 207, 237);
+}
+h1{
+    color:var(--text-color);
+font-size: var(--font-size);
+
+}
+header{
+width: 100%;
+height: 100px;
+background-color: rgb(30, 175, 183);
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+.direction{
+display: block;
+}
+.city{
+    display: block;
+}
+img{
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+}
+footer{
+    background-color:  rgb(30, 175, 183);
+}
+#a{
+   
+    position: fixed;
+    width: 3%;
+    height: 3%;
+    border-radius: 100%;
+    padding: 1%;
+    background-color: aqua;
+margin:30%;
+}
